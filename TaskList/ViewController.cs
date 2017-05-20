@@ -80,17 +80,9 @@ namespace TaskList
 			Console.WriteLine("REACHED");
 			undoButtonCount = 0;
 
-			//TODO: Design the app to make it look nice
-			//TODO IN UPDATE: Edit feature, add or remove parts of a task
-			//TODO IN UPDATE: Small one line preview of next task after current one
-
 
 			//Customize all displays and stuff 
 			t = new Timer (5000);
-
-
-
-
 
 			UITextView bottomBack = new UITextView(new CGRect(0, 200 - 20, UIScreen.MainScreen.Bounds.Width, UIScreen.MainScreen.Bounds.Height - 200 + 20));
 			bottomBack.Editable = false;
